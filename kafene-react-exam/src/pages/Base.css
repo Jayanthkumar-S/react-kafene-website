@@ -1,0 +1,71 @@
+main {
+  margin-top: 100px;
+  height: 200vh;
+}
+.page-wrapper {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 8% 4%;
+}
+.page-wrapper > h1 {
+  margin: 0;
+}
+.order-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding: 24px 0;
+}
+.product-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding: 24px 0;
+}
+.filters-section {
+  width: 180px;
+}
+.filters-section > h3 {
+  margin: 0;
+}
+.filters-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.filter-checkbox {
+  margin: 6px 0;
+  cursor: pointer;
+}
+.filter-checkbox > input {
+  margin-right: 12px;
+}
+.order-list {
+  width: 100%;
+}
+.order-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.order-table > tr {
+  vertical-align: middle;
+}
+.order-table th,
+.order-table td {
+  text-align: left;
+  padding: 12px 24px;
+  font-size: 14px;
+}
+td:nth-of-type(4) {
+  min-width: 150px;
+}
+tr td {
+  background-color: #fff;
+  border-bottom: 4px solid #f6f7fb;
+}
+.cell-primary {
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 500;
+}
+.cell-secondary {
+  color: #8c8c8c;
+}
